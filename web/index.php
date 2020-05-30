@@ -15,7 +15,7 @@
       <nav>
         <ul class="ta-center">
           <li><a class="selected" href="index.html">Home</a></li>
-          <li><a href="Features.html">Register</a></li>
+          <li><a href="Features.php">Register</a></li>
           
         </ul>
       </nav>
