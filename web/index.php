@@ -35,7 +35,7 @@
             Friendr, the dating app for friends
           </p>
           
-          <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Features.html';">
+          <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Features.php';">
             Register here            
           </button>
         </div>
