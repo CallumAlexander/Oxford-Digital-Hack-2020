@@ -15,7 +15,7 @@
             <nav>
                 <ul class="ta-center">
                     <li><a href="index.php">Home</a></li>
-                    <li><a class="selected" href="Features.php">Register</a></li>
+                    <li><a class="selected" href="Register.php">Register</a></li>
                    
                 </ul>
             </nav>
@@ -30,40 +30,55 @@
         </div>
 
       <div id="middle" class= "background-main-lg pt-96px pb-64px">
-        <div class = "wrapper-inner-s ">
+        <div class = "wrapper-inner-s form_div">
 
             <form action="query.php" method="POST">
+                <div class="input_div">
+                    <div class="form_text_boxes">
 
-                <h5 for="Email-field" class="main-header">Email</h5>          
-                <input type="text" name="email" id="Email-field" class="inputboxes">
+                        <h5 for="Email-field" class="main-header text_box_title">Email</h5>          
+                        <input type="text" name="email" id="Email-field" class="inputboxes">
 
-                <br>
+                        <br>
 
-                <h5 for="Password-field" class="main-header">Password</h5>          
-                <input type="text" name="pword" id="Password-field" class="inputboxes"> 
-                <br><br> 
-                
-                
-                <p>I have Interest in:</p>
+                        <h5 for="Password-field" class="main-header text_box_title">Password</h5>          
+                        <input type="password" name="pword" id="Password-field" class="inputboxes"> 
+                        <br><br> 
 
-                <label for="knitting" class="">Knitting</label>
-                <input  type="checkbox"  id="knitting" name="knitting" value="knitting"> 
-                <br>
+                    </div>
+                    
+                    
+                    <div class="form_check_boxes">
+                        <h5 id="interest" class="main-header">I'm interested in:</h5>
 
-                <label  for="Diplomacy Board Game" class="">Diplomacy Board Game</label>
-                <input  type="checkbox"  id="Diplomacy Board Game" name="Diplomacy Board Game" value="Diplomacy Board Game"> 
-                <br>
+                        
+                        <input  type="checkbox"  class="check_box" id="knitting" name="knitting" value="knitting"> 
+                        <label for="knitting" class="check_box_label">Knitting</label>
+                        <br>
 
-                <label  for="Chess" class="Checkbox">Chess</label>
-                <input  type="checkbox"  id="Chess" name="Chess" value="Chess"> 
-                <br>
+                        
+                        <input  type="checkbox"  class="check_box" id="Diplomacy Board Game" name="Diplomacy Board Game" value="Diplomacy Board Game"> 
+                        <label  for="Diplomacy Board Game" class="check_box_label">Diplomacy Board Game</label>
+                        <br>
 
-                <label  for="Chat" class="Chat">A Chat</label>
-                <input  type="checkbox"  id="Chat" name="Chat" value="Chat"> 
-                <br><br>
+                        
+                        <input  type="checkbox"  class="check_box" id="Chess" name="Chess" value="Chess"> 
+                        <label  for="Chess" class="check_box_label">Chess</label>
+                        <br>
 
-                <input id="Register" class="btn" type="submit">
+                        
+                        <input  type="checkbox"  id="Chat" name="Chat" value="Chat"> 
+                        <label  for="Chat" class="check_box_label">A Chat</label>
+                        <br><br>
 
+                    </div>  
+                </div>
+
+                <div class="submit_div">
+
+                <input id="Register" class="btn submit_button" type="submit">
+
+                </div>
             </form>
         </div>
 
