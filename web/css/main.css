@@ -1,0 +1,355 @@
+/* Base Styles
+========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 400 16px/1.5 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    margin: 0 0 1.5rem;
+}
+
+a {
+    color: #068;
+    text-decoration: none;
+}
+button { 
+    background: none; 
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+    display: inline-block;
+}
+
+input { 
+    text-align: start;
+   
+}
+
+/* Helper Classes
+========================================================================== */
+
+/* Gradients */
+
+.grad {
+    width: 100%;
+    height: 0.25rem;
+}
+
+.bgop-grad {
+    background-image: linear-gradient(
+        to right,
+        #068,
+        #068 23%,
+        #95c059 28%,
+        #95c059 49%,
+        #e69c30 51%,
+        #e69c30 73%,
+        #ad79d2 77%,
+        #ad79d2
+    )
+}
+
+.background-main-lg { 
+    background: #f4f7f8;
+    max-width: 100%;
+}
+
+.background-main-dg { 
+    background: #ecf0f3;
+    max-width: 100%;
+}
+
+.background-blue { 
+    background: #e3ecf2;
+    max-width: 100%;
+
+
+}
+/* Padding */
+
+.pt-96px {
+    padding-top: 6rem;
+}
+
+.pb-64px {
+    padding-bottom: 4rem;
+}
+
+/* Display */
+
+.ib-parent > * {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+    padding: 0 5%; 
+}
+
+/* Text Alignment */
+
+.ta-center {
+    text-align: center;
+}
+
+/* Shadows */
+
+.img-shadow {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+/* Structure
+========================================================================== */
+
+.wrapper,
+.wrapper-inner-s {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1260px;
+}
+
+.wrapper-inner-s {
+    max-width: 640px;
+}
+
+.wrapper-inner {
+    max-width: 1000px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: #2b2b2b;
+    font-weight: 500;
+}
+
+nav a.selected,
+nav a:hover {
+    color: #068;
+}
+
+.main-header {
+    color: #068;
+
+}
+
+.btn    { 
+    background-color: #068;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-weight: 500; 
+
+
+}
+.btn img { 
+    vertical-align: middle; 
+
+}
+#imgbtn { 
+
+ 
+    padding: 0.25rem 1rem;  
+    padding-right: 0.75rem;
+}
+.btn:hover { 
+    background-color: #097a9f;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+}
+.btn:active { 
+    box-shadow: none; 
+    background-color: #006688;
+    
+}
+
+.btn:focus { 
+    outline: none; 
+
+}
+
+.inputboxes { 
+    border-radius: 4px; 
+    display: block; 
+    float: left;
+    padding: 2px 10px 2px 10px;
+
+}
+
+.lable { 
+    display: block; 
+    font-size: 0.9rem; 
+    text-align: left;
+}
+
+#register { 
+    float: left;
+    display: block;
+    min-width: 152px;
+    min-height: 40px;
+    
+
+
+}
+.inline-startfloat { 
+    float: inline-start;
+} 
+
+.left{ 
+    float: left;
+    
+}
+
+.titletext { 
+    min-height: 5px;
+    margin: 0px;
+    Padding: 0px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #068;
+}
+
+.maintext { 
+    min-height: 5px;
+    margin: 0px;
+    Padding: 0px;
+}
+
+.datetext { 
+    min-height: 5px;
+    margin: 0px;    
+    Padding: 0px;
+}   
+
+.article-sep {
+    padding: 1rem 0rem 1rem 0rem;
+
+}
+
+.subheading-green {
+    color:#95c059;
+    font-weight: 700;
+}
+
+.subheading-orange { 
+    color: #e69c30;
+    font-weight: 700;
+
+}
+
+.subheading-purple { 
+    color: #ad79d2;
+    font-weight: 700;
+
+}
+
+.subheading-blue { 
+    color: #068;
+    font-weight: 700;
+    
+}
+.right { 
+    float: right;
+}
+
+.width { 
+    width: 400px;
+
+}
+
+.block { 
+    display: block;
+
+}
+
+.ulticks { 
+    list-style-image: url(../img/green-tick.png);
+}
+
+#Price { 
+    color: #95c059;
+    font-size: 5rem;
+}
+
+#Price span {
+    color: #8f8e8f;
+    font-size: 0.75rem;
+    margin-left: -10px;
+}
+
+#pound {
+    font-size: 1.5rem;
+    top: 22px;
+    left: -18px;
+}
+
+.inlineblock { 
+    Display: inline-block;
+}
+
+.relative { 
+    position: relative;
+
+}
+
+.absolute { 
+position: absolute;
+
+}
+
+.inline { 
+    display: inline;
+
+}
+
+.no-m {
+    margin: 0px 0px !important;
+
+
+}
+
+#freq {
+    text-align: left;
+    margin: -1.5rem 0 0;
+    font-weight: 500;
+}
+
+.ta-left { 
+    text-align: left;
+
+}
+
+.pricingtickposition { 
+    margin: 13px 11px 0px 0px;
+
+}
