@@ -32,7 +32,7 @@
       <div id="middle" class= "background-main-lg pt-96px pb-64px">
         <div class = "wrapper-inner-s ">
 
-            <form action="login.php" method="POST">
+            <form action="query.php" method="POST">
 
                 <h5 for="Email-field" class="main-header">Email</h5>          
                 <input type="text" name="email" id="Email-field" class="inputboxes">
