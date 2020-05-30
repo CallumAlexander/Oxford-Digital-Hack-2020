@@ -162,22 +162,25 @@ nav a:hover {
 
 }
 
+/*------ Form and button ---*/
+
 .btn    { 
+    text-align: center;
     background-color: #068;
+    width: 40%;
+    height: 40px;
     color: #fff;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     font-weight: 500; 
-
-
+    border: none;
 }
+
 .btn img { 
     vertical-align: middle; 
-
 }
-#imgbtn { 
 
- 
+#imgbtn {  
     padding: 0.25rem 1rem;  
     padding-right: 0.75rem;
 }
@@ -197,11 +200,15 @@ nav a:hover {
 }
 
 .inputboxes { 
-    border-radius: 4px; 
+    margin: -12px 0 0 0;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 10px; 
     display: block; 
     float: left;
     padding: 2px 10px 2px 10px;
-
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .lable { 
@@ -353,3 +360,46 @@ position: absolute;
     margin: 13px 11px 0px 0px;
 
 }
+
+/*---------------- form styling ----------*/
+
+.form_div {
+    margin: auto;
+    background: white;
+    width : 560px;
+    height: 340px;
+    padding: 40px;
+}
+
+.form_div .form_text_boxes {
+    float: left;
+    padding: 0 30px 0 0;
+}
+
+.form_div .form_check_boxes {
+    float: left;
+}
+
+
+.input_div {
+    width: 100%;
+}
+
+.submit_div {
+    clear:both;
+    width: 100%;
+}
+
+.text_box_title {
+    padding: 0;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    
+}
+
+.check_box_label {
+    color: gray;
+}
+
