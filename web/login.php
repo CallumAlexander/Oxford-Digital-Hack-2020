@@ -1,14 +1,8 @@
-<html>
+<?php
 
-    <body>
-        
-        Welcome, <?php echo $_POST["email"];?>
+    $email = $_POST['email'];
+    $password = $_POST['pword'];
 
-
-    </body>
-
-
-</html>
-
+?>
 
 

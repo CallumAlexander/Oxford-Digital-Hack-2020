@@ -14,8 +14,8 @@
             <div class="grad bgop-grad"></div>
             <nav>
                 <ul class="ta-center">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="selected" href="Features.html">Register</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a class="selected" href="Features.php">Register</a></li>
                    
                 </ul>
             </nav>
@@ -40,10 +40,9 @@
                 <br>
 
                 <h5 for="Password-field" class="main-header">Password</h5>          
-                <input type="text" name="assword" id="Password-field" class="inputboxes">
-                        
-                <br> 
-                <br>
+                <input type="text" name="pword" id="Password-field" class="inputboxes"> 
+                <br><br> 
+                
                 
                 <p>I have Interest in:</p>
 
@@ -61,10 +60,9 @@
 
                 <label  for="Chat" class="Chat">A Chat</label>
                 <input  type="checkbox"  id="Chat" name="Chat" value="Chat"> 
-                <br>
-                <br>
+                <br><br>
 
-                <input id="Register" class="btn" type="submit">Register</input> 
+                <input id="Register" class="btn" type="submit">
 
             </form>
         </div>
