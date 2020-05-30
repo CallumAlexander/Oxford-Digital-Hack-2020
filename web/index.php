@@ -15,7 +15,7 @@
       <nav>
         <ul class="ta-center">
           <li><a class="selected" href="index.php">Home</a></li>
-          <li><a href="Features.php">Register</a></li>
+          <li><a href="Register.php">Register</a></li>
           
         </ul>
       </nav>
@@ -35,7 +35,7 @@
             Friendr, the dating app for friends
           </p>
           
-          <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Features.php';">
+          <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Register.php';">
             Register here            
           </button>
         </div>
