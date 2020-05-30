@@ -14,7 +14,7 @@
       <div class="grad bgop-grad"></div>
       <nav>
         <ul class="ta-center">
-          <li><a class="selected" href="index.html">Home</a></li>
+          <li><a class="selected" href="index.php">Home</a></li>
           <li><a href="Features.php">Register</a></li>
           
         </ul>
@@ -35,7 +35,7 @@
             Friendr, the dating app for friends
           </p>
           
-          <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Features.html';">
+          <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Features.php';">
             Register here            
           </button>
         </div>
