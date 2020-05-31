@@ -403,3 +403,47 @@ input[type="checkbox"] {
     color: gray;
 }
 
+
+
+/*----------Match Page ------------*/
+
+.top-congrats {
+    padding: 60px 0 10px 0;
+}
+
+.congrats_div {
+    padding: 0px;
+}
+
+.congrats_pic {
+    width: 100%;
+}
+
+.outer_congrats {
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.your_match {
+    background-color: white;
+    color: rgb(80, 74, 74);
+    padding: 30px 10px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+.next_step {
+    background-color: #006688;
+    color: white;
+    height: 200px;
+    padding-left: 50%;
+}
+
+.next_step p{
+    padding: 30px 70px 0 70px;
+}
