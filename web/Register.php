@@ -15,7 +15,7 @@
             <nav>
                 <ul class="ta-center">
                     <li><a href="index.php">Home</a></li>
-                    <li><a class="selected" href="Features.php">Register</a></li>
+                    <li><a class="selected" href="Register.php">Register</a></li>
                    
                 </ul>
             </nav>
@@ -32,7 +32,7 @@
       <div id="middle" class= "background-main-lg pt-96px pb-64px">
         <div class = "wrapper-inner-s form_div">
 
-            <form action="login.php" method="POST">
+            <form action="query.php" method="POST">
                 <div class="input_div">
                     <div class="form_text_boxes">
 
