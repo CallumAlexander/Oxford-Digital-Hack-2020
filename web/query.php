@@ -42,20 +42,54 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 	echo "Users who are interested in knitting:";
 	while($row = $result->fetch_assoc()){
-		echo "Email to contact : " . $row["email"];
+		echo "Email to contact : " . $row["email"] . "<br>";
 	}
 	echo "<br>";
 } else {
 	echo "Sozzles, no matches for yourselfsh with knitting";
 }
 
+// Searches for diplomacy
 $sql = "SELECT email FROM users WHERE diplomacy = '$diplomacy';";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-	echo "Users who are interested in knitting:<br>";
-
+	echo "Users who are interested in diplomacy : <br>";
+	while($row = $result->fetch_assoc()){
+		echo "Email to contact : " . $row["email"] . "<br>";
+	}
+	echo "<br>";
+} else {
+	echo "Sozzles, no matches for yourself with diplomacy";
 }
 
-//$conn->close();
+// searches for chess
+$sql = "SELECT email FROM users WHERE chess = '$chess';";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+	echo "Users who are interested in chess : <br>";
+	while ($row = $result->fetch_assoc()) {
+		echo "Email to contact : " . $row["email"] . "<br>";
+	}
+	echo "<br>";
+} else {
+	echo "Sorry, no chess pals for you";
+}
+
+// searches for great chat
+$sql = "SELECT email FROM users WHERE chat = '$chat';";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+	echo "Usrs who are interested in a chat : <br>";
+	while ($row = $result->fetch_assoc()) {
+		echo "Email to contact : " . $row["email"] . "<br>";
+	}
+	echo "<br>";
+} else {
+	echo "Sorry no chats available";
+}
+
+$conn->close();
 ?>
