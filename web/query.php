@@ -38,7 +38,6 @@
       <div class="background-main-dg pt-96px pb-64px ta-center outer_congrats">         
         <div class="match_info">
 
-        // -----------------------------------------------------
         <?php 
 
             ini_set('display_errors', 1);
@@ -81,7 +80,7 @@
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
-                echo "Users who are interested in knitting:";
+                echo "Users who are interested in knitting : <br>";
                 while($row = $result->fetch_assoc()){
                     echo "Email to contact : " . $row["email"] . "<br>";
                 }
@@ -134,13 +133,6 @@
 
             $conn->close();
         ?>
-        // ----------------------------------------------------------------------
-        
-          <div class = "next_step">
-            <p>
-              Now all you have to do to make your time in isolation a bit more exciting is contact your new friend at: <br>[insert email]
-            </p>
-          </div>
           
         </div>
       </div>      

@@ -15,7 +15,7 @@
             <nav>
                 <ul class="ta-center">
                     <li><a href="index.php">Home</a></li>
-                    <li><a class="selected" href="Register.php">Match</a></li>
+                    <li><a class="selected" href="Features.php">Match</a></li>
                    
                 </ul>
             </nav>
@@ -32,7 +32,7 @@
       <div id="middle" class= "background-main-lg pt-96px pb-64px">
         <div class = "wrapper-inner-s form_div">
 
-            <form action="query.php" method="POST">
+            <form action="login.php" method="POST">
                 <div class="input_div">
                     <div class="form_text_boxes">
 
@@ -52,22 +52,22 @@
                         <h5 id="interest" class="main-header">I'm interested in:</h5>
 
                         
-                        <input  type="checkbox"  class="check_box" id="knitting" name="knitting" value="1"> 
+                        <input  type="checkbox"  class="check_box" id="knitting" name="knitting" value="knitting"> 
                         <label for="knitting" class="check_box_label">Knitting</label>
                         <br>
 
                         
-                        <input  type="checkbox"  class="check_box" id="Diplomacy Board Game" name="Diplomacy Board Game" value="1"> 
+                        <input  type="checkbox"  class="check_box" id="Diplomacy Board Game" name="Diplomacy Board Game" value="Diplomacy Board Game"> 
                         <label  for="Diplomacy Board Game" class="check_box_label">Diplomacy Board Game</label>
                         <br>
 
                         
-                        <input  type="checkbox"  class="check_box" id="Chess" name="Chess" value="1"> 
+                        <input  type="checkbox"  class="check_box" id="Chess" name="Chess" value="Chess"> 
                         <label  for="Chess" class="check_box_label">Chess</label>
                         <br>
 
                         
-                        <input  type="checkbox"  id="Chat" name="Chat" value="1"> 
+                        <input  type="checkbox"  id="Chat" name="Chat" value="Chat"> 
                         <label  for="Chat" class="check_box_label">A Chat</label>
                         <br><br>
 

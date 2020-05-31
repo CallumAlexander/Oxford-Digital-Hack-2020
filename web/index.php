@@ -15,7 +15,7 @@
       <nav>
         <ul class="ta-center">
           <li><a class="selected" href="index.php">Home</a></li>
-          <li><a href="Register.php">Register</a></li>
+          <li><a href="Register.php">Match</a></li>
           
         </ul>
       </nav>
@@ -36,7 +36,7 @@
           </p>
           
           <button id="imgbtn" type="button" Class ="btn"onclick="location.href = 'Register.php';">
-            Register here            
+            Match here            
           </button>
         </div>
       </div>
