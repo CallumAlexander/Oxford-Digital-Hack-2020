@@ -14,8 +14,8 @@
       <div class="grad bgop-grad"></div>
       <nav>
         <ul class="ta-center">
-          <li><a class="selected" href="index.html">Home</a></li>
-          <li><a href="Features.html">Register</a></li>
+          <li><a class="selected" href="index.php">Home</a></li>
+          <li><a href="Features.php">Register</a></li>
           
         </ul>
       </nav>
